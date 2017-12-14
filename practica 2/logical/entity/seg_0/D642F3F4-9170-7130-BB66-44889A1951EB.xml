@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D642F3F4-9170-7130-BB66-44889A1951EB" name="CARACTERISTICA">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:13:23 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_caracteristica" id="8F341D07-3E26-7C8B-E1E9-5EA88EBB5C3C">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:13:33 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="caracteristica" id="65516251-08B1-9A3A-B58B-A810BADB8328">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:13:58 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_auto" id="5EFC341C-DBB5-D0E7-2A9B-F0D05A731A25">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:22:47 UTC</createdTime>
+<generatorID>DC19E310-74D9-37E7-B7C8-5C079D5CD4F2</generatorID>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<referedAttribute>48B93FE6-BCB3-8CD8-89B6-702D12828D3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

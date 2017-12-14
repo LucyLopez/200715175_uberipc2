@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D0B2BF4B-10C2-63EC-ABAE-020E0350F3C6" name="AUTO">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:11:27 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_auto" id="48B93FE6-BCB3-8CD8-89B6-702D12828D3C">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:11:56 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="1B59A98A-964B-AA00-EBF9-5BFCA2EAFDF9">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:12:06 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capcidad" id="71CD5033-1238-F8DE-3837-A870D4CBAC98">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:16:54 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="55A91650-B613-DC56-6E64-0581AC3ADF39">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:17:28 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conductor" id="7251DADA-9D44-0065-C6B0-793F885244EB">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:23:16 UTC</createdTime>
+<generatorID>BC4238B6-51CD-3C69-0648-6E2930F71F6D</generatorID>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<referedAttribute>A7AF498F-3140-7744-01EC-643EE4B2BD5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="837F94EF-A44F-B28B-C895-031014CE3537" name="AUTO PK">
+<createdBy>Lucy</createdBy>
+<createdTime>2017-12-14 18:12:05 UTC</createdTime>
+<ownerDesignName>practica 2</ownerDesignName>
+<engineerTo>
+<item key="BB96E9EF-E934-423D-9811-7A11F6C30DE2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48B93FE6-BCB3-8CD8-89B6-702D12828D3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
